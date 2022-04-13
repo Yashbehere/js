@@ -1,0 +1,53 @@
+
+<!-- saved from url=(0043)file:///C:/vaishnavi%20patil51/jquery2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script src="./jquery22_files/jquery.js.download"></script>
+<script>
+$(document).ready(function()
+{ $("#b1").click(function()
+{
+$("p").css("color","blue");
+});
+$("#b2").click(function()
+{
+$("p").css("color","red");
+});
+$("#b3").click(function()
+{
+$("p").hide(1000,function(){alert("you have hide this paragraph");});
+});
+$("#b4").click(function()
+{
+$("p").show();
+});
+$("#b5").click(function()
+{
+$("p").toggle();
+});
+$("#b6").click(function()
+{
+$("p").slideup();
+});
+$("#b7").click(function()
+{
+$("p").slidedown();
+});
+$("#b8").click(function()
+{
+$("p").slidetoggle();
+});
+</script>
+</head>
+<body bgcolor="navy blue">
+<p><b>This is paragraph</b></p>
+<input type="button" id="b1" value="Blue">
+<input type="button" id="b2" value="red">
+<input type="button" id="b3" value="hide">
+<input type="button" id="b4" value="show">
+<input type="button" id="b5" value="toggle">
+<input type="button" id="b6" value="slideup">
+<input type="button" id="b7" value="slidedown">
+<input type="button" id="b8" value="slidetoggle">
+
+
+</body></html>
